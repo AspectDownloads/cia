@@ -121,7 +121,7 @@ function Library:Create(Name, Color, FontColor2)
 	Shadow.Position = UDim2.new(-0.0536044352, 0, -0.0554016605, 0)
 	Shadow.Size = UDim2.new(0, 598, 0, 400)
 	Shadow.ZIndex = -1
-	Shadow.Image = "rbxassetid://5554236805"
+	Shadow.Image = "rbxassetid://15836262127"
 	Shadow.ImageColor3 = DefaultColor
 
 	TabFolder.Name = "TabFolder"
