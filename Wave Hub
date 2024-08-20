@@ -153,22 +153,6 @@ Button1.TextSize = 18.000
 UICorner_5.CornerRadius = UDim.new(0, 5)
 UICorner_5.Parent = Button1
 
-Button2.Name = "Button2"
-Button2.Parent = SBFrame
-Button2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
-Button2.BorderSizePixel = 0
-Button2.ClipsDescendants = true
-Button2.Position = UDim2.new(0.0670000091, 0, 0, 0)
-Button2.Size = UDim2.new(0.865999997, 0, 0.0619739033, 0)
-Button2.Selected = true
-Button2.Font = Enum.Font.GothamBold
-Button2.Text = "Hubs"
-Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button2.TextSize = 18.000
-
-UICorner_6.CornerRadius = UDim.new(0, 5)
-UICorner_6.Parent = Button2
-
 Button3.Name = "Button3"
 Button3.Parent = SBFrame
 Button3.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
