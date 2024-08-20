@@ -185,22 +185,6 @@ Button3.TextSize = 18.000
 UICorner_7.CornerRadius = UDim.new(0, 5)
 UICorner_7.Parent = Button3
 
-Button4.Name = "Button4"
-Button4.Parent = SBFrame
-Button4.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
-Button4.BorderSizePixel = 0
-Button4.ClipsDescendants = true
-Button4.Position = UDim2.new(0.0670000091, 0, 0, 0)
-Button4.Size = UDim2.new(0.865999997, 0, 0.0619739033, 0)
-Button4.Selected = true
-Button4.Font = Enum.Font.GothamBold
-Button4.Text = "Other"
-Button4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button4.TextSize = 18.000
-
-UICorner_8.CornerRadius = UDim.new(0, 5)
-UICorner_8.Parent = Button4
-
 CocoLogo.Name = "CocoLogo"
 CocoLogo.Parent = SideBar
 CocoLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -449,29 +433,5 @@ end
 	return ButtonSys
 end
 
-function ButtonSys:CreateButtonF4 (text, callback)
-		local callback = callback or function() end
-		local T4Button = Instance.new("TextButton")
-		local UICorner_7 = Instance.new("UICorner")
 
-		T4Button.Name = text.."T4BTN"
-		T4Button.Parent = TFrame4
-		T4Button.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
-		T4Button.BorderSizePixel = 0
-		T4Button.Position = UDim2.new(0.0174999218, 0, 0, 0)
-		T4Button.Size = UDim2.new(0.927999973, 0, 0, 28)
-		T4Button.Selected = true
-		T4Button.Font = Enum.Font.Gotham
-		T4Button.Text = text
-		T4Button.TextColor3 = Color3.fromRGB(255, 255, 255)
-		T4Button.TextSize = 14.000
-		T4Button.MouseButton1Click:Connect(function()
-			pcall(callback)
-		end)
-
-		UICorner_7.CornerRadius = UDim.new(0, 5)
-		UICorner_7.Parent = T4Button
-	end
-	return ButtonSys
-end
 return lib
