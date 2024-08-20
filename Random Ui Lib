@@ -177,7 +177,7 @@ function Library:Create(Name, Color, FontColor2)
 		
 		MakeTab = function(Name, Icon)
 
-			local RealIcon = "http://www.roblox.com/asset/?id="..Icon
+			local RealIcon = "http://www.roblox.com/asset/?id=15836262127"..Icon
 			local TabOpener = Instance.new("Frame")
 			local TabOpenerButton = Instance.new("ImageButton")
 			local Tab = Instance.new("Frame")
@@ -451,7 +451,7 @@ function Library:Create(Name, Color, FontColor2)
 							LabelIcon.BackgroundTransparency = 1.000
 							LabelIcon.Position = UDim2.new(0.918793499, 0, 0.121212125, 0)
 							LabelIcon.Size = UDim2.new(0, 23, 0, 23)
-							LabelIcon.Image = "http://www.roblox.com/asset/?id=6031302918"
+							LabelIcon.Image = "http://www.roblox.com/asset/?id=15836262127"
 							LabelIcon.ImageColor3 = DefaultColor
 							local Extra = {
 								UpdateLabel = function(NewText)
