@@ -162,7 +162,7 @@ Button2.Position = UDim2.new(0.0670000091, 0, 0, 0)
 Button2.Size = UDim2.new(0.865999997, 0, 0.0619739033, 0)
 Button2.Selected = true
 Button2.Font = Enum.Font.GothamBold
-Button2.Text = "Soon"
+Button2.Text = "Misc"
 Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Button2.TextSize = 18.000
 
@@ -178,7 +178,7 @@ Button3.Position = UDim2.new(0.0670000091, 0, 0, 0)
 Button3.Size = UDim2.new(0.865999997, 0, 0.0619739033, 0)
 Button3.Selected = true
 Button3.Font = Enum.Font.GothamBold
-Button3.Text = "Misc"
+Button3.Text = "Soon"
 Button3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Button3.TextSize = 18.000
 
